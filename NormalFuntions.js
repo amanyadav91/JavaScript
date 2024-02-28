@@ -33,6 +33,7 @@ function printName(name){
     console.log(name);
 }
 printName("Aman Yadav");
+
 // re use ability of function
 function sum(a,b)
 {
@@ -42,6 +43,7 @@ let s= sum(7,9)
 console.log(s)
 let s1= sum(89,89)
 console.log(s1)
+
 // creating function with one return agruments 
 function nam(name){
     return name;
