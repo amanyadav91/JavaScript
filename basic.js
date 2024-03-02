@@ -80,10 +80,13 @@ console.log(x==y)
 
         // garbage collaction
         let g=1;
-        console.log(`before ${g}`);
         g = null;
+        console.log(`before ${g}`);
+        
         let h=2;
+        h= null;
         console.log(`after ${h}`)
+
         // basic are done 
 
         
